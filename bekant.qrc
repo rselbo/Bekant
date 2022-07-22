@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Bekant">
+        <file alias="down.png">icons/down.png</file>
+        <file alias="up.png">icons/up.png</file>
+    </qresource>
+    <qresource prefix="/Bekant/qml">
+        <file alias="listbackground.png">icons/listbackground.png</file>
+    </qresource>
+</RCC>
