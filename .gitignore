@@ -1,3 +1,6 @@
 esp32/output/
 .vscode/
+.vs/
 CMakeLists.txt.user
+out/
+*.res

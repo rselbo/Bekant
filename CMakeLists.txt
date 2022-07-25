@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
 find_package(Qt6 REQUIRED COMPONENTS QuickControls2)
 
+set(APP_ICON_RESOURCE_WINDOWS bekant.rc)
 qt_add_resources(RESOURCES bekant.qrc)
 qt_add_executable(appBekant
     main.cpp
@@ -20,6 +21,7 @@ qt_add_executable(appBekant
     memorypositionmodel.h
     memorypositionmodel.cpp
     ${RESOURCES}
+    ${APP_ICON_RESOURCE_WINDOWS}
 )
 
 set_source_files_properties(qml/Values.qml PROPERTIES QT_QML_SINGLETON_TYPE TRUE)

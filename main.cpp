@@ -1,4 +1,5 @@
 #include <QGuiApplication>
+#include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QQuickStyle>
@@ -9,6 +10,8 @@
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+    app.setWindowIcon(QIcon(":/Bekant/favicon.png"));
+
     QCoreApplication::setApplicationName("Bekant controller");
     QCoreApplication::setOrganizationDomain("github.com/rselbo/bekant");
     QCoreApplication::setOrganizationName("Bekant");

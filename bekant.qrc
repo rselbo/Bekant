@@ -2,6 +2,7 @@
     <qresource prefix="/Bekant">
         <file alias="down.png">icons/down.png</file>
         <file alias="up.png">icons/up.png</file>
+        <file alias="favicon.png">icons/favicon.png</file>
     </qresource>
     <qresource prefix="/Bekant/qml">
         <file alias="listbackground.png">icons/listbackground.png</file>
