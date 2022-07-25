@@ -243,6 +243,6 @@ void loop(){
 
   lin.writeFrame(0x12, buffer, 3);
 
-  usleep(150000);
+  usleep(100000);
 }
 
